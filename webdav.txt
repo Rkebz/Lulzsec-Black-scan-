@@ -1,0 +1,20 @@
+/webdav/
+   /dav/
+   /files/
+   /uploads/
+   /data/
+   /documents/
+   /storage/
+   /share/
+   /backup/
+   /repository/
+   /resources/
+   /sync/
+   /vault/
+   /contents/
+   /records/
+   /assets/
+   /archive/
+   /system/
+   /config/
+   /backups/
